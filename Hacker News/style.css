@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: rgb(246, 246, 239);
     ;
@@ -19,7 +19,7 @@ header {
 
 header * {
     display: inline-block;
-    font-size: 1em;
+    font-size: .95em;
     margin: 0 auto;
     padding: 1px;
     vertical-align: middle;
@@ -76,6 +76,11 @@ header a:link {
 .link a:hover {
     text-decoration: underline;
 }
+
+.story--sub {
+    display: block;
+}
+
 .story--sub p {
     margin-left: 30px;
     font-size: 0.7rem;
