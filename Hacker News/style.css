@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(246, 246, 239);
+    ;
+}
+
+header {
+    background-color: rgb(255, 102, 0);
+    height: 100%;
+}
+
+header * {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+#logo {
+    border: 1px solid white;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#login {
+    float: right;
+}
+
+.story {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.story * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.rank p {
+    color: grey;
+}
+
+.arrow img {
+    max-height: 11px;
+    margin:0 -5px 0 -3px
+}
+.title {
+}
+
+.link p {
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.link a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+.story--sub p {
+    margin-left: 30px;
+    font-size: 0.7rem;
+    color: grey;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    font-size: .7em;
+
+footer a:link {
+    text-decoration: none;
+    color: inherit;
+}
+

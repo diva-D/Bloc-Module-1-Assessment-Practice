@@ -8,96 +8,278 @@
 </head>
 
 <body>
-    <header>
-        <!-- logo -->
-        <a href="https:news.ycombinator.com/">
-            <img src="logo.gif">
-        </a>
-        <!-- Hacker News Text -->
-        <h1>Hacker News</h1>
-        <!-- Nav -->
-        <nav>
-            <ul>
-                <!-- new | comments | show | ask | jobs | submit -->
-                <li>
-                    <a href="https://news.ycombinator.com/newest">new</a> |          
-                </li>
-                <li>
-                    <a href="https://news.ycombinator.com/newcomments"> comments</a> |
-                </li>
-                <li>
-                    <a href="https://news.ycombinator.com/show">show</a> | 
-                </li>
-                <li>
-                    <a href="https://news.ycombinator.com/ask">ask</a> | 
-                </li>
-                <li>
-                    <a href="https://news.ycombinator.com/jobs">jobs</a> | 
-                </li>
-                <li>
-                    <a href="https://news.ycombinator.com/submit">submit</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- login on right -->
-        <div>
-            <a href="https://news.ycombinator.com/login?goto=news"><p>login</p></a>
-        </div>
-    </header>
-    <main>
-        <!-- Story box
-                Number
-                Upvote
-                Title with link at end. link format (google.com) -->
-        
-        <!-- Story 1 -->
-        <section class="story">
-            <div class="story--main">
-                <div class="rank">
-                    <p>1.</p>
-                </div>
-                <div class="arrow">
-                    <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
-                </div>
-                <div class="title">
-                    <p>Facebook AI Research Expands with New Academic Collaborations</p>
-                </div>
-                <div class="link">
-                    <p>(<a href="#">fb.com</a>)</p>
-                </div>
+    <div class="container">
+        <header>
+            <!-- logo -->
+            <a href="https:news.ycombinator.com/">
+                <img id="logo" src="logo.gif">
+            </a>
+            <!-- Hacker News Text -->
+            <h1>Hacker News</h1>
+            <!-- Nav -->
+            <nav>
+                <ul>
+                    <!-- new | comments | show | ask | jobs | submit -->
+                    <li>
+                        <a href="https://news.ycombinator.com/newest">new</a> |          
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/newcomments"> comments</a> |
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/show">show</a> | 
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/ask">ask</a> | 
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/jobs">jobs</a> | 
+                    </li>
+                    <li>
+                        <a href="https://news.ycombinator.com/submit">submit</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- login on right -->
+            <div id="login">
+                <a href="https://news.ycombinator.com/login?goto=news"><p>login</p></a>
             </div>
-            <div class="story--sub">
-                <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
-            </div>
-        </section>
-                
-    </main>
-    <hr>
-    <footer>
-        <!-- footer nav -->
-        <nav>
-            <ul>
-                <!-- Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | Legal | Apply to YC | Contact -->
-                <li>Guidelines | </li>
-                <li>FAQ | </li>
-                <li>Support | </li>
-                <li>API | </li>
-                <li>Security | </li>
-                <li>Lists | </li>
-                <li>Bookmarklet | </li>
-                <li>Legal | </li>
-                <li>Apply to YC | </li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <!-- footer search
-                Search:
-                search form-->
-        <form action="#" method="POST">
-            <label for="search">Search: </label>
-            <input type="search" id="search">
-        </form>
-    </footer>
+        </header>
+        <main>
+            <!-- Story box
+                    Number
+                    Upvote
+                    Title with link at end. link format (google.com) -->
+            
+            <!-- Story 1 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 2 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 3 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 4 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 5 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 6 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 7 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 8 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 9 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+            <!-- Story 10 -->
+            <section class="story">
+                <div class="story--main">
+                    <div class="rank">
+                        <p>1.</p>
+                    </div>
+                    <div class="arrow">
+                        <img src="grayarrow2x.gif" alt="upvote arrow" title="upvote">
+                    </div>
+                    <div class="title">
+                        <p>Facebook AI Research Expands with New Academic Collaborations</p>
+                    </div>
+                    <div class="link">
+                        <p>(<a href="#">fb.com</a>)</p>
+                    </div>
+                </div>
+                <div class="story--sub">
+                    <p> 40 points by TamoC 1 hour ago | hide | 31 comments | instapaper</p>
+                </div>
+            </section>
+                    
+        </main>
+        <hr>
+        <footer>
+            <!-- footer nav -->
+            <nav>
+                <ul>
+                    <!-- Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | Legal | Apply to YC | Contact -->
+                    <li>Guidelines | </li>
+                    <li>FAQ | </li>
+                    <li>Support | </li>
+                    <li>API | </li>
+                    <li>Security | </li>
+                    <li>Lists | </li>
+                    <li>Bookmarklet | </li>
+                    <li>Legal | </li>
+                    <li>Apply to YC | </li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            <!-- footer search
+                    Search:
+                    search form-->
+            <form action="#" method="POST">
+                <label for="search">Search: </label>
+                <input type="search" id="search">
+            </form>
+        </footer>
+    </div>
 </body>
 
 </html>
