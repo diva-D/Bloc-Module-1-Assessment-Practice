@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hacker News Clone</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <!-- logo -->
-            <a href="https:news.ycombinator.com/"><img src="logo.gif"></a>
-            <!-- Hacker News Text -->
 
-            <!-- Nav under text -->
-            <nav>
-                <ul>
-                     <!-- new | comments | show | ask | jobs | submit -->
-                </ul>
-            </nav>
-            <!-- login on right -->
-        </header>
-        <main>
-            <!-- Story box
+<head>
+    <meta charset="utf-8">
+    <title>Hacker News Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- logo -->
+        <a href="https:news.ycombinator.com/">
+            <img src="logo.gif">
+        </a>
+        <!-- Hacker News Text -->
+        <h1>Hacker News</h1>
+        <!-- Nav -->
+        <nav>
+            <ul>
+                <!-- new | comments | show | ask | jobs | submit -->
+                <li>
+                    <a href="https://news.ycombinator.com/newest">new</a> | 
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/newcomments">comments</a> | 
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/show">show</a> | 
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/ask">ask</a> | 
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/jobs">jobs</a> | 
+                </li>
+                <li>
+                    <a href="https://news.ycombinator.com/submit">submit</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- login on right -->
+        <div>
+            <a href="https://news.ycombinator.com/login?goto=news"><p>login</p></a>
+        </div>
+    </header>
+    <main>
+        <!-- Story box
                 Number
                 Upvote
                 Title with link at end. link format (google.com)
@@ -31,21 +56,22 @@
                     hide
                     comment count
                     instapaper -->
-        </main>
-        <hr>
-        <footer>
-            <!-- footer nav -->
-            <nav>
-                <ul>
-                     <!-- Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | Legal | Apply to YC | Contact -->
-                </ul>
-            </nav>
-            <!-- footer search
+    </main>
+    <hr>
+    <footer>
+        <!-- footer nav -->
+        <nav>
+            <ul>
+                <!-- Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | Legal | Apply to YC | Contact -->
+            </ul>
+        </nav>
+        <!-- footer search
                 Search:
                 search form-->
-                <form action="post">
+        <form action="post">
 
-                </form>
-        </footer>    
-    </body>
+        </form>
+    </footer>
+</body>
+
 </html>
