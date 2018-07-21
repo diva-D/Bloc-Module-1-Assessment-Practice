@@ -3,20 +3,17 @@
 // ingredients: "cheddar cheese, eggs, olive oil, onions, potato, salt", 
 // thumbnail: "http://img.recipepuppy.com/2.jpg"}
 
-
-
-
 fetch("https://cors-anywhere.herokuapp.com/http://www.recipepuppy.com/api")
     .then(r => r.json())
     .then(r => {
         let data = r.results;
         console.log(data);
-        let body = document.querySelector("body");
+        let main = document.querySelector("main");
         let p = document.createElement("p");
         data.map(e => {
             // section
             let recipeSection = document.createElement("div")
-            body.appendChild(recipeSection);
+            main.appendChild(recipeSection);
             //title
             let recipeTitle = document.createElement("h2");
             recipeSection.appendChild(recipeTitle);
