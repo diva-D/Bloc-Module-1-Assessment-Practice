@@ -1,1 +1,16 @@
-.recipe {}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.recipe:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+.recipe:nth-of-type(odd) {
+    background-color: lightpink;
+}
