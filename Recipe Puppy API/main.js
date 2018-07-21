@@ -12,10 +12,11 @@ fetch("https://cors-anywhere.herokuapp.com/http://www.recipepuppy.com/api")
         let p = document.createElement("p");
         data.map(e => {
             // section
-            let recipeSection = document.createElement("div")
+            let recipeSection = document.createElement("section")
+            recipeSection.classList.add("recipe");
             main.appendChild(recipeSection);
             //title
-            let recipeTitle = document.createElement("h2");
+            let recipeTitle = document.createElement("h3");
             recipeSection.appendChild(recipeTitle);
             recipeTitle.innerHTML = "<a href='" + e.href + "'>" + e.title + "</a>";
             //thumbnail
