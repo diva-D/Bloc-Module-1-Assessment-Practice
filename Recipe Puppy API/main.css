@@ -7,10 +7,24 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+h1, h2 , footer{
+    text-align: center;
+}
+
 .recipe:nth-of-type(even) {
     background-color: lightblue;
 }
 
 .recipe:nth-of-type(odd) {
     background-color: lightpink;
+}
+
+.recipe {
+    border: 2px solid lightskyblue;
+    display: inline-block;
+    height: 450px;
+    overflow: scroll;
+    padding-left: 20px;
+    width: 200px;
 }
