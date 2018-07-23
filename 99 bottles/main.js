@@ -28,9 +28,11 @@ function verse(num) {
         num2 = "no more";
     }
     if (num > 0) {
-        songVerse = num1 + " bottles of beer on the wall, " + num1 + " bottles of beer.\nTake one down and pass it around, " + num2 + " bottles of beer on the wall.";
+        songVerse = `${num1} bottles of beer on the wall, ${num1} bottles of beer.
+        Take one down and pass it around, ${num2} bottles of beer on the wall.`;
     } else {
-        songVerse = "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.";
+        songVerse = `No more bottles of beer on the wall, no more bottles of beer.
+        Go to the store and buy some more, 99 bottles of beer on the wall.`;
     }
     return songVerse;
 }
